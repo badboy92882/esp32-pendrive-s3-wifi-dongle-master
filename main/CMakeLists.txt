@@ -1,0 +1,11 @@
+idf_component_register(
+    SRCS
+        "usb_dongle_main.c"
+        "CLI_Commands.c"
+        "Command_Parse.c"
+        "cmd_wifi.c"
+        "data_back.c"
+        $<$<BOOL:${CONFIG_UART_ENABLE}>:uart.c>
+    INCLUDE_DIRS
+        "."
+)

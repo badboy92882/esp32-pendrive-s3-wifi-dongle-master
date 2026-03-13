@@ -1,0 +1,61 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=E:\Windows\Espressif\python_env\idf5.5_py3.11_env\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=1 E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master
+info: INFO: Symbol TINYUSB_DEBUG_LEVEL defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:2
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:2
+info: INFO: Symbol TINYUSB_DESC_USE_ESPRESSIF_VID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:63
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:78
+info: INFO: Symbol TINYUSB_DESC_CUSTOM_VID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:85
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:70
+info: INFO: Symbol TINYUSB_DESC_USE_DEFAULT_PID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:77
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:92
+info: INFO: Symbol TINYUSB_DESC_CUSTOM_PID defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:83
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:98
+info: INFO: Symbol TINYUSB_DESC_BCD_DEVICE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:90
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:105
+info: INFO: Symbol TINYUSB_DESC_MANUFACTURER_STRING defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:96
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:111
+info: INFO: Symbol TINYUSB_DESC_PRODUCT_STRING defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:102
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:117
+info: INFO: Symbol TINYUSB_DESC_SERIAL_STRING defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:108
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:123
+info: INFO: Symbol TINYUSB_DESC_CDC_STRING defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:114
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:129
+info: INFO: Symbol TINYUSB_CDC_ENABLED defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:155
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:146
+info: INFO: Symbol TINYUSB_CDC_COUNT defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:152
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:161
+info: INFO: Symbol TINYUSB_CDC_RX_BUFSIZE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:169
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:160
+info: INFO: Symbol TINYUSB_CDC_TX_BUFSIZE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:178
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:168
+info: INFO: Symbol TINYUSB_DFU_BUFSIZE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:183
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:228
+info: INFO: Symbol TINYUSB_BTH_ENABLED defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:237
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:192
+info: INFO: Symbol TINYUSB_BTH_ISO_ALT_COUNT defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:198
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:243
+info: INFO: Symbol TINYUSB_NET_MODE_NCM defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:261
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:219
+info: INFO: Symbol TINYUSB_NET_MODE_NONE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:264
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:222
+info: INFO: Choice TINYUSB_NET_MODE defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\managed_components\espressif__esp_tinyusb\Kconfig:252
+    E:\Windows\Users\Hysteria\Desktop\esp32-pendrive-s3-wifi-dongle-master\components\tinyusb_dongle\Kconfig:207
